@@ -5,7 +5,9 @@ require_once 'services.php';
 require_once 'about.php';
 require_once 'contacto-rrss/cotactoController.php';
 require_once 'quienes-somos/quienesController.php'; // Importar funciones de quienes-somos
-
+///
+require_once 'estilo-visual/estilo-visual.php';
+require_once 'productos-servicios/productos-servicios.php';
 // Obtener la ruta solicitada
 $requestUri = $_SERVER['REQUEST_URI'];
 $path = parse_url($requestUri, PHP_URL_PATH);
